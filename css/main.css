@@ -1,6 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
 /* Set custom variables here */
+:root {
+  --dd-body-bg: #F6F3ED;
+  --dd-light-color: #f6f3ed;
+  --dd-dark-color: #2e473a;
+  --dd-no-color: transparent;
+}
+
+.body-dd-bg {
+background-color: var(--dd-body-bg);
+}
+
+.btn-dd-primary {
+--bs-btn-color: var(--dd-light-color);
+--bs-btn-bg: var(--dd-dark-color);
+--bs-btn-border-color: var(--dd-no-color);
+--bs-btn-hover-color: var(--dd-dark-color);
+--bs-btn-hover-bg: var(--dd-light-color);
+--bs-btn-hover-border-color: var(--dd-dark-color);
+--bs-btn-focus-shadow-rgb: 49, 132, 253;
+--bs-btn-active-color: var(--dd-light-color);
+--bs-btn-active-bg: var(--dd-dark-color);
+--bs-btn-active-border-color: var(--dd-no-color);
+--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+--bs-btn-disabled-color: var(--dd-light-color);
+--bs-btn-disabled-bg: var(--dd-dark-color);
+--bs-btn-disabled-border-color: var(--dd-no-color);
+}
+
+.bg-dd-primary {
+background-color: var(--dd-dark-color);
+color: var(--dd-light-color);
+}
+
+.blockquote-footer {
+margin-top: -1rem;
+margin-bottom: 1rem;
+font-size: .875em;
+color: var(--dd-light-color);
+}
+
+.accordion-button:hover,
+.accordion-collapse:target {
+  background-color: #2e473a; /* Green background */
+  color: white; /* Change text color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
