@@ -6,10 +6,10 @@
   --primary: #2e483a;
   --light: #f6f3ed;
 
-  --bs-primary: #2e483a;
+  /* --bs-primary: #2e483a; */
   --bs-primary-rgb: 46, 72, 58;
 
-  --bs-light: #f6f3ed;
+  /* --bs-light: #f6f3ed; */
   --bs-light-rgb: 246, 243, 237;
 }
 
@@ -18,17 +18,12 @@
   --bs-btn-bg: #2e483a;
   --bs-btn-border-color: #2e483a;
 
-
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #3d5d4c;
   --bs-btn-hover-border-color: #3d5d4c;
 
-
-  --bs-btn-active-color: #fff;
-
-
-  --bs-btn-active-bg: #4b705c;
-  --bs-btn-active-border-color: #4b705c;
+  --bs-btn-active-bg: #456855;
+  --bs-btn-active-border-color: #456855;
 }
 
 
@@ -37,6 +32,29 @@
   background-color: #2e473a; /* Green background */
   color: white; /* Change text color */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
